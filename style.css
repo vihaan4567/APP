@@ -1,0 +1,40 @@
+h1 {
+    color: whitesmoke;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(248, 4, 65);
+    display: flexbox;
+    justify-content: space-around;
+}
+.header * {
+    border: solid;
+}
+.site-description{
+    border: thick;
+}
+
+.site-description{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+p,h2,h1{
+    text-align: center;
+}
